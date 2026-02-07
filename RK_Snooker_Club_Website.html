@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RK Snooker Club</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0b0b0b;
+      color: #fff;
+    }
+    header {
+      background: linear-gradient(90deg, #000, #0f3d2e);
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 32px;
+      color: #00ff99;
+    }
+    header p {
+      margin: 5px 0 0;
+      color: #ccc;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      background: #111;
+      padding: 10px 0;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #00ff99;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    .card {
+      background: #161616;
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.6);
+    }
+    h2 {
+      color: #00ff99;
+      margin-bottom: 15px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    footer {
+      background: #000;
+      padding: 20px;
+      text-align: center;
+      font-size: 14px;
+      color: #aaa;
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background: #00ff99;
+      color: #000;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .btn:hover {
+      background: #00cc77;
+    }
+    iframe {
+      border-radius: 12px;
+    }
+    .call-float {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #00ff99;
+      color: #000;
+      padding: 14px 18px;
+      border-radius: 50px;
+      font-weight: bold;
+      text-decoration: none;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.6);
+      z-index: 999;
+    }
+    .call-float:hover {
+      background: #00cc77;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>RK Snooker Club</h1>
+  <p>Play • Relax • Compete</p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#games">Games</a>
+  <a href="#canteen">Canteen</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+  <div class="card">
+    <h2>Welcome</h2>
+    <p>RK Snooker Club ek premium indoor sports club hai jahan snooker, carrom aur tournaments ka best experience milta hai.</p>
+  </div>
+</section>
+
+<section id="games">
+  <h2>Games & Facilities</h2>
+  <div class="grid">
+    <div class="card">🎱 1 Mini Wiraka Snooker Table</div>
+    <div class="card">🎱 1 Full Size Wiraka Snooker Table</div>
+    <div class="card">♟️ Professional Carrom</div>
+    <div class="card">🏆 Regular Tournaments</div>
+  </div>
+</section>
+
+<section id="canteen">
+  <div class="card">
+    <h2>Canteen</h2>
+    <p>Chai, Coffee, Maggie, Cold Drinks, Bun Maska, Boiled Egg, Omelette aur tasty snacks available hain.</p>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="card">
+    <h2>Contact Us</h2>
+    <p><strong>Phone / WhatsApp:</strong> 7237859958</p>
+    <p><strong>Opening Hours:</strong> 12:00 PM – 12:00 AM</p>
+    <p><strong>Address:</strong> Begum Purwa, Safed Colony, Baba Market</p>
+    <br />
+    <iframe src="https://www.google.com/maps?q=Begum+Purwa+Safed+Colony+Baba+Market&output=embed" width="100%" height="300" loading="lazy"></iframe>
+    <br /><br />
+    <a class="btn" href="https://wa.me/917237859958">Chat on WhatsApp</a>
+  </div>
+</section>
+
+<footer>
+  © 2026 RK Snooker Club | Designed for Players
+</footer>
+
+<a href="tel:7237859958" class="call-float">📞 Call Now</a>
+
+</body>
+</html>
